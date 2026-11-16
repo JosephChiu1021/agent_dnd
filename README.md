@@ -1,6 +1,6 @@
 # 星燈港冒險者公會｜D&D 冒險委託布告欄
 
-Repository 名稱：`vibe-dnd`。
+Repository 名稱：`agent_dnd`。
 
 ## 專案簡介
 
