@@ -32,7 +32,7 @@
 
 正式首頁不得加入測試入口。flip-preview.html 與 pagination-test.html 僅供本機檢查，publish.py 不得將它們打包發布。pagination-test.html 為多面測試樣本，並非正式新增的委託資料；一般 build.py 不會更新它。更動公告板版型時，需同步檢查此測試頁是否仍適用。此次使用者已指定暫緩手機排版測試，不得宣稱已完成；後續恢復測試時再執行窄螢幕驗收。
 
-GitHub 儲存庫名稱為 vibe-dnd。上傳包不包含本機測試頁及繳交草稿；缺少這些檔案不應影響建置及發布。預設 build.py 只產生正式頁面；需要翻面預覽時使用 python build.py --preview，對應檢查為 python build.py --preview --check。
+GitHub 儲存庫名稱為agent_dnd。上傳包不包含本機測試頁及繳交草稿；缺少這些檔案不應影響建置及發布。預設 build.py 只產生正式頁面；需要翻面預覽時使用 python build.py --preview，對應檢查為 python build.py --preview --check。
 
 公告板固定外框、時鐘和桌面，只旋轉中間軟木面。旋轉區為原圖左側 17.5%、頂部 31.5%、寬 65%、高 46.5%，背景裁切與外框對齊。
 
